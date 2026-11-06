@@ -1,0 +1,70 @@
+[
+  {
+    "question": "Where do employees submit reimbursement requests, and what must they attach?",
+    "reference_answer": "Submit reimbursement requests through the Finance Portal and attach an itemized receipt for every expense.",
+    "expected_key_points": [
+      "Finance Portal",
+      "itemized receipt for every expense"
+    ],
+    "evidence": "Employees submit reimbursement requests through the Finance Portal. Attach an itemized receipt for every expense.",
+    "question_type": "answerable"
+  },
+  {
+    "question": "How long do employees have to submit an expense, and when are approved reimbursements paid?",
+    "reference_answer": "Submit the request within 30 calendar days of the purchase. Finance issues approved reimbursements in the next regular payroll cycle after the manager reviews the request.",
+    "expected_key_points": [
+      "within 30 calendar days of purchase",
+      "manager reviews the request",
+      "next regular payroll cycle"
+    ],
+    "evidence_passages": [
+      "Submit a request within 30 calendar days of the purchase.",
+      "A manager reviews the request first",
+      "Finance issues approved reimbursements in the next regular payroll cycle."
+    ],
+    "question_type": "multi_chunk"
+  },
+  {
+    "question": "How early should I request planned time off, and who approves it?",
+    "reference_answer": "Submit the request in the People Portal at least 10 business days before the first day away. Your manager approves or declines it in the portal.",
+    "expected_key_points": [
+      "People Portal",
+      "at least 10 business days in advance",
+      "manager approves or declines"
+    ],
+    "evidence_passages": [
+      "Submit planned time-off requests in the People Portal at least 10 business days",
+      "The employee's manager approves or declines the request in the portal."
+    ],
+    "question_type": "answerable"
+  },
+  {
+    "question": "What should an employee do when they are unexpectedly ill?",
+    "reference_answer": "Notify the manager before the employee's normal start time on the first day of absence, then record sick leave in the People Portal upon returning.",
+    "expected_key_points": [
+      "notify manager before normal start time",
+      "record sick leave in People Portal after returning"
+    ],
+    "evidence": "For unexpected illness, notify the manager before the employee's normal start time on the first day of absence. Record sick leave in the People Portal when the employee returns.",
+    "question_type": "answerable"
+  },
+  {
+    "question": "How many days per week may an employee work remotely?",
+    "reference_answer": "Employees may work remotely up to two days per week with manager approval.",
+    "expected_key_points": [
+      "up to two days per week",
+      "manager approval"
+    ],
+    "evidence": "Employees may work remotely up to two days per week with manager approval.",
+    "question_type": "answerable"
+  },
+  {
+    "question": "What is the monthly employee premium for the health plan?",
+    "reference_answer": "The handbook does not specify the monthly employee premium.",
+    "expected_key_points": [
+      "premium is not specified in the handbook",
+      "do not invent an amount"
+    ],
+    "question_type": "unanswerable"
+  }
+]

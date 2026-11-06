@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How should an employee report a suspected security incident?",
+    "reference_answer": "Report it immediately using the Security Incident form in the Help Desk Portal. Include when it happened, the affected device or account, and what you observed. If the portal is unavailable, call the internal Security hotline.",
+    "expected_key_points": [
+      "report immediately",
+      "Security Incident form in Help Desk Portal",
+      "include time, affected device or account, and observations",
+      "call the internal Security hotline if the portal is inaccessible"
+    ],
+    "evidence_passages": [
+      "Report a suspected security incident immediately through the Security Incident form in the Help Desk Portal.",
+      "Include when it happened, which company device or account may be affected, and what you observed.",
+      "If you cannot access the portal, call the internal Security hotline."
+    ],
+    "question_type": "answerable"
+  },
+  {
+    "question": "What is the process to get access to an application, and what must happen before the application owner grants it?",
+    "reference_answer": "Submit an access request in the Help Desk Portal with the application, business role, reason, and approving manager. The manager must approve it before the application owner grants access.",
+    "expected_key_points": [
+      "Access Requests section of Help Desk Portal",
+      "specify application, business role, reason, and manager",
+      "manager approval precedes the application owner's grant"
+    ],
+    "evidence": "Request access to a company application through the Access Requests section of the Help Desk Portal. Select the application and business role, explain why access is needed, and name the manager who approves the request. The application owner grants access after manager approval.",
+    "question_type": "multi_chunk"
+  },
+  {
+    "question": "How quickly does IT Support respond to a laptop hardware ticket, and what information should I include?",
+    "reference_answer": "IT Support responds within one business day. Include the laptop asset tag, operating system, and a description of the problem.",
+    "expected_key_points": [
+      "within one business day",
+      "asset tag",
+      "operating system",
+      "problem description"
+    ],
+    "evidence_passages": [
+      "Open a hardware ticket in the Help Desk Portal and include the laptop asset tag, operating system, and a description of the problem.",
+      "IT Support responds within one business day."
+    ],
+    "question_type": "answerable"
+  },
+  {
+    "question": "How do I reset a forgotten password safely?",
+    "reference_answer": "Use the company account recovery page and verify your identity with your enrolled multi-factor authentication method. Never disclose your password or one-time code. If recovery fails, contact the Help Desk Portal.",
+    "expected_key_points": [
+      "company account recovery page",
+      "verify with enrolled multi-factor method",
+      "never disclose password or one-time code",
+      "contact Help Desk Portal if recovery fails"
+    ],
+    "evidence_passages": [
+      "Use the company account recovery page to reset a forgotten password.",
+      "your identity using the enrolled multi-factor authentication method.",
+      "IT Support will never ask you to disclose your current password or a one-time code.",
+      "Contact the Help Desk Portal if account recovery does not work."
+    ],
+    "question_type": "answerable"
+  },
+  {
+    "question": "Where should work files be saved, and how long can a deleted file be recovered?",
+    "reference_answer": "Save work files in the company-managed cloud drive. It backs up files nightly and retains deleted files for 30 days; local-desktop-only files are not included in the managed backup.",
+    "expected_key_points": [
+      "company-managed cloud drive",
+      "nightly backup",
+      "deleted files retained for 30 days",
+      "local-only desktop files are not included"
+    ],
+    "evidence": "Save work files in the company-managed cloud drive. The drive backs up files automatically each night and retains deleted files for 30 days. Files stored only on a local desktop are not included in the managed backup.",
+    "question_type": "multi_chunk"
+  },
+  {
+    "question": "What guaranteed monthly uptime percentage do company applications provide?",
+    "reference_answer": "The guide does not specify a guaranteed uptime percentage.",
+    "expected_key_points": [
+      "uptime guarantee is not specified",
+      "do not invent a percentage"
+    ],
+    "question_type": "unanswerable"
+  }
+]
